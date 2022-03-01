@@ -1,0 +1,2 @@
+ALL_TEXT
+A house accompanied by the text $1

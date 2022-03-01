@@ -1,0 +1,2 @@
+ALL_TEXT
+A clapback with the words $1

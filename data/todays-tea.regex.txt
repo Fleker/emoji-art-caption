@@ -1,0 +1,2 @@
+ALL_TEXT
+A steaming cup of tea with the label $1

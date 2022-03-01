@@ -1,0 +1,2 @@
+ALL_TEXT
+There is a sky full of stars and sparkles with the text $1

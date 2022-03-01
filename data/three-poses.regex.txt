@@ -1,0 +1,2 @@
+ALL_TEXT
+A person performing a pose while saying $1

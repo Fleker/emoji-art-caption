@@ -1,0 +1,8 @@
+NOTES.md
+node_modules/
+dist/
+.cache/
+yarn.lock
+*.zip
+emoji-model/
+bundle.json

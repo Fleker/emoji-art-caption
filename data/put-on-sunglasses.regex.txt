@@ -1,0 +1,2 @@
+ALL_TEXT
+A person puts on sunglasses while saying $1

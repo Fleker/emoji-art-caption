@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Emoji Art Alt Text",
+    "version": "0.1",
+    "description": "Emoji Art Alt Text",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "http://twitter.com/",
+        "https://twitter.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["http://www.twitter.com/*",
+                       "https://twitter.com/*"],
+            "js": ["tweet-fixer.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

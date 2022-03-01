@@ -1,0 +1,2 @@
+ALL_TEXT
+Person is kicked down the stairs with the caption $1

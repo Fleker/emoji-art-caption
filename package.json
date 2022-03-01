@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "@tensorflow-models/universal-sentence-encoder": "^1.2.0",
+        "@tensorflow/tfjs": "^1.3.2",
+        "@tensorflow/tfjs-node": "^1.3.2",
+        "nodemon": "^2.0.1",
+        "parcel": "^1.12.4",
+        "stdio": "^0.2.7"
+    },
+    "browserslist": [
+        "last 1 Chrome versions"
+    ],
+    "scripts": {
+        "bundle:regex": "node bundle-regex.js",
+        "copy-files": "cp manifest.json ./dist/ && cp bundle.json ./dist/",
+        "demo": "parcel --target=node regex-demo.js & node dist/regex-demo.js",
+        "webpage": "node webpage-demo.js",
+        "train": "parcel --target=node model-builder.js & node dist/model-builder.js",
+        "package": "parcel build tweet-fixer.js && npm run bundle:regex && npm run copy-files && zip -r bulldog-bat.zip ./dist"
+    }
+}

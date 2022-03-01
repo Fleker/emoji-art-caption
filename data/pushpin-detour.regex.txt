@@ -1,0 +1,2 @@
+📍([\w\s]+)(?:\n.*)*📍([\w\s]+).*\n?([\w\s]+)(?:.*\n)*📍([\w\s]+)
+A winding trail starting from $1, skipping $2$3, and ending up at $4
